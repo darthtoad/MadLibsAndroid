@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -14,10 +14,10 @@ import butterknife.ButterKnife;
  */
 
 public class MadLibActivity extends AppCompatActivity {
-    @Bind(R.id.part1) TextView part1;
-    @Bind(R.id.part2) TextView part2;
-    @Bind(R.id.part3) TextView part3;
-    @Bind(R.id.part4) TextView part4;
+    @BindView(R.id.part1) TextView part1;
+    @BindView(R.id.part2) TextView part2;
+    @BindView(R.id.part3) TextView part3;
+    @BindView(R.id.part4) TextView part4;
     private Context context;
 
     @Override

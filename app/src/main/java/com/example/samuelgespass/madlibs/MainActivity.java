@@ -9,16 +9,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
-    @Bind(R.id.button) Button button;
-    @Bind(R.id.editText) EditText editText;
-    @Bind(R.id.editText0) EditText editText0;
-    @Bind(R.id.editText1) EditText editText1;
-    @Bind(R.id.editText2) EditText editText2;
+    @BindView(R.id.button) Button button;
+    @BindView(R.id.editText) EditText editText;
+    @BindView(R.id.editText0) EditText editText0;
+    @BindView(R.id.editText1) EditText editText1;
+    @BindView(R.id.editText2) EditText editText2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
